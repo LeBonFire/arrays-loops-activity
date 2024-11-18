@@ -1,11 +1,24 @@
+
+// ME & JORGE WORKED TOGETHER 11/13 WED GROUP ACTIVITY; AS FAR AS WE GOT ALTHOUGH A BIT MORE MIGHT HAVE BEEN WITH JORGE SINCE HE WAS DOING THE WRITING
+
+
 /**
  * #1 Hobbies
  * ----------
  * 1. Create an array of group member hobbies
+ * [chess,]
  * 2. Write a loop that logs out each hobby
  * 3. After the loop, log out the total number of
  *    hobbies
  */
+
+let hobbies = ['swimming', 'board game', 'painting'] 
+
+for (let hobby in hobbies) {
+     console.log (hobby)
+     console.log (hobbies[hobby]) 
+}
+
 
 
 // Example output
@@ -24,6 +37,19 @@
  *    is in the array
  * 4. Output the array and number of times teal was found
  */
+
+
+let colors = ['green', 'red', 'teal', 'orange', 'teal']
+let tealColor = 'teal'
+
+let counter = 0
+
+for (let teal of colors) {
+      if( teal === tealColors ) {
+          counter ++
+          console.log ('teal was found', counter)
+      }
+}
 
 
 // Example output
